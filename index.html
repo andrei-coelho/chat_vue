@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br" style="height: 100%;">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/src/assets/css/bulma.css">
+    <title>Chat Vue</title>
+  </head>
+  <body style="height: 100%;">
+    <div id="app"></div>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
+    <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyAuO8C3hCvxEKsjQ7ksZSEmtYdf0X8NwwQ",
+        authDomain: "talk-e616f.firebaseapp.com",
+        projectId: "talk-e616f",
+        storageBucket: "talk-e616f.appspot.com",
+        messagingSenderId: "313308267635",
+        appId: "1:313308267635:web:f2867100c5deaba0931606",
+        measurementId: "G-DSY226KK1B"
+      };
+      firebase.initializeApp(firebaseConfig);
+      const db = firebase.firestore();
+    </script>
+    <script src="/dist/build.js"></script>
+  </body>
+</html>

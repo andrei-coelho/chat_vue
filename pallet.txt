@@ -1,0 +1,5 @@
+primary - #32465a - hsl(210, 29%, 27%) - (azul escuro)
+secondary - #435f7a - hsl(209, 29%, 37%) - (azul claro)
+dark - #243140 - hsl(212, 28%, 20%) - (azul bem escuro)
+light - #95a5a6 - hsl(184, 9%, 62%) - (azul bem claro)
+clean - #f5f5f5 - hsl(0, 0%, 96%) - (cinza bem claro)
